@@ -3,7 +3,6 @@ def valid_move?(board,index)
   place = index.to_i - 1
   if position_taken?(board,place) == false && place.between?(0,8)
     return true
-
 else
   return false
   end
